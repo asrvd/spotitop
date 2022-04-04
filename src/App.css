@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Questrial&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, p {
+  letter-spacing: -0.0275em;
+}
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+.heading {
+  width: 80%;
+}
+
+.head {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.head h2 {
+  color: #CBD5E0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.head p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #718096;
+}
+
+.top-list {
+  height: 80%;
+  width: 100%;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.track-container {
+  cursor: pointer;
+  width: 100%;
+  height: 5%;
+}
+
+.track {
+  height: 100%;
+  width: 80%;
+}
+
+.track-img {
+  height: 100%;
+  width: 25%;
+  max-height: 100%;
+}
+
+.track-info {
+  width: 75%;
+}
+
+.name {
+  color: #68D391;
+}
+
+.track-info h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #CBD5E0;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.track-info p {
+  font-family: 'Montserrat', sans-serif;
+  color: #718096;
+  font-size: 1.3rem;
+}
+
+.footer {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  color: #4FD1C5;
+}
+
+@media screen and (max-width: 768px) {
+  .list-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .head {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .head h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .head p {
+    font-size: 1rem;
+  }
+
+  .top-list {
+    height: 80%;
+    width: 100%;
+  }
+
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .track-container {
+    width: 100%;
+    height: 5%;
+  }
+
+  .track {
+    height: 100%;
+    width: 80%;
+  }
+
+  .track-img {
+    height: 100%;
+    width: 25%;
+    max-height: 100%;
+  }
+
+  .track-info {
+    width: 75%;
+  }
+
+  .track-info h2 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .track-info p {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
