@@ -44,7 +44,7 @@ export default function TopList() {
             <div className="head">
                 <div className="heading">
                     <h2><span className="name"><a href="https://open.spotify.com/user/31ma7274fwzhcig5iibz25thypoi?si=da7ea11fd64a4412">ashish's</a></span> top 20 songs for this month.</h2>
-                    <p>A list of my top 20 most played songs on spotify update daily.</p>
+                    <p>A list of my top 20 most played songs on spotify, updates daily.</p>
                 </div>
             </div>
             <VStack className="top-list">
